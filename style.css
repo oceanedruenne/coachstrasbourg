@@ -291,8 +291,6 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
-	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
 	z-index: 1;
@@ -700,4 +698,37 @@ p {
 		margin: 1.5%;
 	}
 }
+
+#accompagnement {
+	background-image: url(./img/accompagnement.jpg);
+	background-position: center;
+}
+
+#competences {
+	background-image: url(./img/gestion.jpg);
+	background-position: center;
+}
+
+#coachingperso {
+	background-image: url(./img/coachingcard.jpg);
+	background-position: inherit;
+}
+
+#arbre {
+	background-image: url(./img/arbre.jpg);
+	background-position: right;
+}
+
+#stress {
+	background-image: url(./img/stress.jpg);
+	background-position: center;
+}
+
+#teamb {
+	background-image: url(./img/teamb.jpg);
+	background-position: center;
+}
+
+
+
 /* Fin Media Query For PC fixe */
